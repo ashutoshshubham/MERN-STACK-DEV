@@ -1,0 +1,117 @@
+<!-- Material Bootstrap -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.1/mdb.min.css" rel="stylesheet" />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+
+
+</head>
+
+<body>
+
+    <header>
+        <div class="swiper looolz">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img class="img-fluid"
+                        src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Saving-web_1_1_1600x.png?v=1667369063">
+                </div>
+                <div class="swiper-slide">
+                    <img class="img-fluid"
+                        src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/ACC-DESKTOP-Banner_1600x.png?v=1669638411">
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-md-4 col-lg-2 col-xxl-2">
+                <div class="card">
+                    <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/back_300x.png?v=1668599490"
+                        class="card-img-top">
+                    <div class="card-body">
+                        <h4>Airpods 131</h4>
+                        <p>Airpods</p>
+                        <button class="btn btn-danger float-end mt-3">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-2 col-xxl-2">
+                <div class="card">
+                    <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/wave-call-3_300x.png?v=1658295343"
+                        class="card-img-top">
+                    <div class="card-body">
+                        <h4>Wave Call</h4>
+                        <p>Smart Watch</p>
+                        <button class="btn btn-danger float-end mt-3">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-2 col-xxl-2">
+                <div class="card">
+                    <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/103-pro-mint_300x.png?v=1666696423"
+                        class="card-img-top">
+                    <div class="card-body">
+                        <h4>Rockerz 103 Pro</h4>
+                        <p>Neckband</p>
+                        <button class="btn btn-danger float-end mt-3">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-2 col-xxl-2">
+                <div class="card">
+                    <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main2_743eb2f9-663e-4359-ae9d-192e5f0ed056_300x.png?v=1623832759"
+                        class="card-img-top">
+                    <div class="card-body">
+                        <h4>BassHeads 105</h4>
+                        <p>Ear Phone</p>
+                        <button class="btn btn-danger float-end mt-3">Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.1/mdb.min.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".looolz", {
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            loop:true,
+            autoplay: {
+                delay: 1000                     // 1 sec = 1000ms
+            },
+            effect:'flip'
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Student Registration Form</h2>
+    <hr>
+    <form>
+
+        <label>Student Full Name</label>
+        <input type="text" placeholder="Enter Name" required minlength="3">
+        <br>
+        <br>
+
+        <label>Email</label>
+        <input type="email" placeholder="Enter Email" required>
+        <br>
+        <br>
+
+        <label>Enter DOB</label>
+        <input type="date" required>
+        <br>
+        <br>
+
+        <label>Enter Contact</label>
+        <input type="number" placeholder="Enter Contact" required>
+        <br>
+        <br>
+
+        <label>Gender</label>
+        <input type="radio" name="gender" required>Male
+        <input type="radio" name="gender" required>Female
+        <br>
+        <br>
+
+        <label>Select State</label>
+        <select>
+            <option>UP</option>
+            <option>Bihar</option>
+            <option>Rajasthan</option>
+            <option>Uttrakhand</option>
+            <option>West Bengal</option>
+        </select>
+        <br>
+        <br>
+
+        <label>Qualification</label>
+        <input type="text" placeholder="Enter Qualification" list="quali">
+        <datalist id="quali">
+            <option>BCA</option>
+            <option>B.Tech</option>
+            <option>M.Tech</option>
+            <option>MBA</option>
+        </datalist>
+        <br><br>
+
+        <details>
+            <Summary>Privacy Policy</Summary>
+            <p><mark>Lorem ipsum</mark> dolor, sit amet consectetur adipisicing elit. Maiores voluptatibus id fugit eos
+                nemo perferendis nisi hic! Nulla soluta perspiciatis nam, cumque, vel totam ab laborum repellat quis
+                iure dolorum accusantium beatae esse temporibus vero!</p>
+        </details>
+        <br>
+        <input type="checkbox">I accept Terms and Conditions
+
+        <br>
+        <br>
+
+
+
+
+
+        <button>Submit</button>
+
+
+
+
+
+    </form>
+</body>
+
+</html>

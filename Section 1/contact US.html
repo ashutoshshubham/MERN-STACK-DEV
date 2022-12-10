@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us Form</title>
+
+    <style>
+        /* body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        } */
+        .main {
+            background-color: aqua;
+            margin: 10vh 10%;
+            height: 80vh;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            
+        }
+
+        .form-box {
+            background-color: brown;
+            height: 100%;
+            box-sizing: border-box;
+            padding: 20px;
+            color: white;
+        }
+
+        .image-box {
+            background-color: red;
+            height: 100%;
+            /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrhnj4j5e3Z-Ak4fZuQUbNO8_sQaqjjEznZg&usqp=CAU);
+            background-size: cover; */
+            
+            
+        }
+
+        .myinput{
+            display: block;
+            width: 100%;
+            padding: 5px;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+        }
+
+        .mybtn{
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            background-color: rgb(0, 102, 255);
+            color: white;
+            font-size: 15px;
+            font-weight: bold;
+
+        }
+
+        .form-title{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .mycard{
+            padding: 40px;
+            /* box-shadow: x-offset y-offset blur size color; */
+            box-shadow: 3px 4px 5px 2px rgba(0, 0, 0, 0.185);
+            
+            box-sizing: border-box;
+        }
+
+
+    </style>
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="form-box mycard">
+            <form>
+                <p class="form-title">Contact Form</p>
+
+                <label>Full Name</label>
+                <input type="text" class="myinput">
+
+                <label>Email</label>
+                <input type="email" class="myinput">
+                
+                <label>Contact No.</label>
+                <input type="text" class="myinput">
+                
+                <label>Subject</label>
+                <input type="text" class="myinput">
+                
+                <label>Description</label>
+                <input type="text" class="myinput">
+                
+                <button class="mybtn">Send Query</button>
+
+
+            </form>
+        </div>
+
+        <div class="image-box"></div>
+    </div>
+</body>
+
+</html>

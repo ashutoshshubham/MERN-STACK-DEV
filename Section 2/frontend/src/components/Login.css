@@ -1,0 +1,33 @@
+.container1{
+    background-color: rgb(246, 136, 132);
+    box-sizing: border-box;
+    width: 35vw;
+    margin-top: 100px;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+
+.entry{
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.input-field{
+    display: block;
+    /* margin-left: 10px; */
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.label{
+    font-size: 20px;
+    color: black;
+}
+
+.btn{
+    width: 100%;
+    box-sizing: border-box;
+}

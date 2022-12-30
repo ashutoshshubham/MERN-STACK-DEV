@@ -1,0 +1,51 @@
+.row{
+    margin: 0;                       /* to remove horizontal bar*/
+}
+
+.form{
+    border-radius: 15px;
+    margin: 120px auto;
+    width: 45vw;
+    box-sizing: border-box;
+    padding: 0 40px;
+    background-color: rgb(246, 161, 161);
+    color: black;
+}
+
+.heading{
+    padding: 10px 0;
+}
+
+.entry-name{
+    /* display: block; */
+    box-sizing: border-box;
+    width: 100%;
+    margin: 10px 0;
+    text-align: start;
+    font-size: 17px;
+    font-weight: bolder;
+    margin: 5px 0;
+
+}
+
+.input-field{
+    display: block;
+    /* margin-left: 10px; */
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(241, 237, 237);
+}
+
+.btn1{
+    background-color: red;
+    color: white;
+    border: none;
+    width: 100%;
+    border-radius: 10px;
+    margin: 20px 0;
+    padding: 5px 0;
+    font-weight: bold;
+    font-family:  'Roboto', sans-serif;
+}

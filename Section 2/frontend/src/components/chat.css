@@ -1,0 +1,30 @@
+.sent-msg{
+    background-color: crimson;
+    padding: 20px;
+    color: white;
+    width: fit-content;
+    margin-left: auto;
+    border-radius: 20px 0 20px 20px;
+    box-shadow: 3px -3px 0 0 rgb(251, 135, 89);
+    margin-bottom: 10px;
+
+}
+
+.sent-msg p{
+    margin: 0;
+}
+
+.rec-msg{
+    background-color: rgb(20, 57, 220);
+    padding: 20px;
+    color: white;
+    width: fit-content;
+    /* margin-left: auto; */
+    border-radius: 0 20px 20px 20px;
+    box-shadow: 3px -3px 0 0 rgb(99, 136, 236);
+    margin-bottom: 10px;
+}
+
+.rec-msg p{
+    margin: 0;
+}

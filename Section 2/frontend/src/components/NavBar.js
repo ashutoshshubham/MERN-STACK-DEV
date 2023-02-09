@@ -5,7 +5,7 @@ const NavBar = () => {
   return (
     <>
       {/* Navbar */}
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
         {/* Container wrapper */}
         <div className="container-fluid">
           {/* Toggle button */}
@@ -57,10 +57,45 @@ const NavBar = () => {
                 </NavLink>
               </li>
               <li className="nav-item">
+                <NavLink className="nav-link" to="/state">
+                  State Management
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/chat">
+                  Chat
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/login2">
+                  Login2
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/signup">
+                  SignUp
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/manageuser">
+                  ManageUser
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/product">
+                  Product
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/manageproduct">
+                  ManageProduct
+                </NavLink>
+              </li>
+              {/* <li className="nav-item">
                 <a className="nav-link" href="#">
                   Projects
                 </a>
-              </li>
+              </li> */}
             </ul>
             {/* Left links */}
           </div>

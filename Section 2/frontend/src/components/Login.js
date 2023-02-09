@@ -64,7 +64,7 @@ const Login = () => {
             <label className="form-label" for="registerRepeatPassword">Repeat password</label>
           </div> */}
 
-          <button type="submit" className="btn btn-primary mt-3">Register</button>
+          <button type="submit" className="btn btn-primary mt-3 btn1">Register</button>
 
         </form>
       </div>
